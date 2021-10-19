@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography"
 import Button from "@mui/material/Button"
 import IconButton from "@mui/material/IconButton"
 import MenuIcon from "@mui/icons-material/Menu"
+import SignUp from "../../pages/auth/signup"
 
 const GuessBar = () => {
   return (
@@ -22,9 +23,10 @@ const GuessBar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            KoinTube
           </Typography>
           <Button color="inherit">Login</Button>
+          <Button color="inherit">Sign Up</Button>
         </Toolbar>
       </AppBar>
     </Box>
